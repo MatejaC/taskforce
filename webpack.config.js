@@ -14,9 +14,7 @@ module.exports = {
                     loader: 'style-loader'
                 },
                 {
-                    // Interprets `@import` and `url()` like `import/require()`
-
-                    and will resolve them
+                    // Interprets `@import` and `url()` like `import/require()` and will resolve them
 
                     loader: 'css-loader'
                 },
