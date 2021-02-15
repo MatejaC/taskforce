@@ -26,5 +26,9 @@ fetch('https://jsonplaceholder.typicode.com/posts')
             title.innerHtml = element["title"]
             output.appendChild(title);
 
+            output.innerHTML += "<p>" + element["body"] + "</p>";
+            let body = document.createElement("p");
+            body.innerHtml = element["body"]
+            output.appendChild(body);
         }
     });
