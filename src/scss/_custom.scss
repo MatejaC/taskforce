@@ -32,7 +32,7 @@ nav {
 
 ul {
     margin-left: 8.5rem;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
 }
 
 .singleCard {
@@ -40,7 +40,7 @@ ul {
     max-width: 50rem;
     margin: 0 8rem;
     &:first-of-type {
-        margin-top: 2rem;
+        margin-top: 4rem;
     }
     &:last-of-type {
         border-bottom: none;
@@ -50,7 +50,7 @@ ul {
 .card_title {
     font-family: $fontRobotoSlab;
     font-weight: 400;
-    padding: 1.4rem 2rem 0 2rem;
+    padding: 2.2rem 2rem 0.5rem 2rem;
     font-size: 1.3rem;
     line-height: 1.4;
     color: $greenTitle;
@@ -59,7 +59,7 @@ ul {
 .para {
     font-family: $fontRoboto;
     font-weight: 400;
-    padding: 0 2rem 1rem 2rem;
+    padding: 0 2rem 1.2rem 2rem;
     font-size: 1.125rem;
     color: $darkgray;
 }
