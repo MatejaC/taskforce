@@ -9,20 +9,22 @@ fetch('https://jsonplaceholder.typicode.com/posts')
         for (let index = 0; index < data.length; index++) {
             const element = data[index];
 
-            console.log(element["title"])
-            console.log(element["body"])
-
-
             let output = document.getElementById('output');
+
+            let card = document.createElement("div");
+            card.className = 'singleCard';
 
             let title = document.createElement("h5");
             title.innerHTML = element["title"]
-            output.appendChild(title);
+            card.appendChild(title);
+            title.className = "card_title"
 
             let body = document.createElement("p");
             body.innerHTML = element["body"]
-            output.appendChild(body);
+            card.appendChild(body);
+            body.className = "para"
+
+            output.appendChild(card);
 
         }
     });
-ss
