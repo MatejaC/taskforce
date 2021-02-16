@@ -1,12 +1,12 @@
 // variables
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
 // base styles
-// fonts 
+// fonts
 $fontRoboto: 'Roboto',
 sans-serif;
 $fontRobotoSlab: 'Roboto Slab',
 serif;
-// colors 
+// colors
 $background: #fafafa;
 $gray1: #f1f1f1;
 $darkgray: #4b4b4b;
@@ -35,7 +35,7 @@ ul {
     font-size: 1.6rem;
 }
 
-.singleCard {
+.single_card {
     border-bottom: 1px solid $darkgreen;
     max-width: 50rem;
     margin: 0 8rem;

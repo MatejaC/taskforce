@@ -12,7 +12,7 @@ fetch('https://jsonplaceholder.typicode.com/posts')
             let output = document.getElementById('output');
 
             let card = document.createElement("div");
-            card.className = 'singleCard';
+            card.className = 'single_card';
 
             let title = document.createElement("h5");
             title.innerHTML = element["title"]
