@@ -1,5 +1,75 @@
+// variables
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+// base styles
+// fonts 
+$fontRoboto: 'Roboto',
+sans-serif;
+$fontRobotoSlab: 'Roboto Slab',
+serif;
+// colors 
+$background: #fafafa;
+$gray1: #f1f1f1;
+$darkgray: #4b4b4b;
+$greenTitle: #28B312;
+$nav:#C1E600;
+$darkgreen:#556600;
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: $nav;
+    color: black;
+}
+
+ul {
+    margin-left: 8.5rem;
+    font-size: 1.7rem;
+}
+
 .singleCard {
-    border: 1px solid green;
+    border-bottom: 1px solid $darkgreen;
     max-width: 50rem;
-    margin-top: 2rem;
+    margin: 0 8rem;
+    &:first-of-type {
+        margin-top: 2rem;
+    }
+    &:last-of-type {
+        border-bottom: none;
+    }
+}
+
+.card_title {
+    font-family: $fontRobotoSlab;
+    font-weight: 400;
+    padding: 1.4rem 2rem 0 2rem;
+    font-size: 1.3rem;
+    line-height: 1.4;
+    color: $greenTitle;
+}
+
+.para {
+    font-family: $fontRoboto;
+    font-weight: 400;
+    padding: 0 2rem 1rem 2rem;
+    font-size: 1.125rem;
+    color: $darkgray;
+}
+
+footer {
+    margin-top: 4rem;
+    color: $darkgray !important;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
 }
